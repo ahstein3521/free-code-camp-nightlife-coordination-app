@@ -1,0 +1,67 @@
+@import url(https://fonts.googleapis.com/css?family=Bitter:400italic);
+body{
+
+  font-family:bitter;
+  background:url('https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Nairobi_nightlife%2C_High_exposure_shot_with_color_lights.JPG/800px-Nairobi_nightlife%2C_High_exposure_shot_with_color_lights.JPG')center center fixed no-repeat;
+  background-size:cover;  
+}
+h1{
+  text-align: center;
+  color:white;
+  font-size:4em;
+  text-shadow:3px 3px 0 #000;
+ 
+}
+
+.navbar{
+	padding:0 10px 0 20px;
+}
+.search-results-title{
+	display:flex;
+	background-color: #5F5FEA;
+	color: white;
+	align-items:center;
+	padding:0 10px 0 10px;
+}
+.yelp{
+	text-align: center;
+	color:white;
+}
+.glyphicon{
+	opacity: .7;
+	color:#FF6969;
+}
+.glyphicon:hover{
+	opacity: .9;
+	
+}
+.badge a{
+	color:#FFDDDD;
+}
+.input-group{
+	width: 70%;
+	margin:30px auto;
+}
+
+.search-results{
+	margin: 40px auto;
+	width:80%;
+}
+
+.list-group{
+	margin:0px auto 0;
+}
+
+.user-forms{
+	background: #F1CE4C;
+	margin-top:60px;
+	padding:20px;
+	border-radius: 12px;
+	box-shadow:12px -15px 112px 4px rgba(30, 142, 111, 0.6);
+
+}
+form{
+	width:80%;
+	margin:50px auto;
+}
+
