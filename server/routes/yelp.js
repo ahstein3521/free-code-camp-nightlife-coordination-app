@@ -1,12 +1,12 @@
 const yelp = require("node-yelp");
-const yelpAuth= require('../secret');
+require('../secret');
  
 var client = yelp.createClient({
   oauth: {
-    "consumer_key": yelpAuth.key,
-    "consumer_secret": yelpAuth.secret,
-    "token": yelpAuth.token,
-    "token_secret": yelpAuth.token_secret
+    "consumer_key": process.env.key,
+    "consumer_secret": process.env.secret,
+    "token": process.env.token,
+    "token_secret": process.env.token_secret
   }
 })  
 

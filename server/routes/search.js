@@ -8,9 +8,8 @@ module.exports=function(app){
     Event.find({},function(e,d){
       res.send(d)
     })
-  })
-
-    
+  })  
+  
   app.put('/venue/:bar',function(req,res){
     Event.findOneAndUpdate({location:req.params.bar},req.body,{new:true},function(e,data){
       if(!data){res.status(500).send('not found')}
@@ -20,7 +19,7 @@ module.exports=function(app){
 
 
   app.post('/search/:city',function(req,res){
-    const city=req.params.city
+    const city=req.params.city.toLowerCase()
     
     Event.findOne({location:city},function(error,data){
       if(error){
