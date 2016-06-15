@@ -39,7 +39,6 @@ class BarList extends Component {
   	}	    
 }
 function mapStateToProps({venues,confirmed,auth}) {
-	// console.log(venues,auth)
   return { venues,auth};
 }
 
@@ -49,10 +48,3 @@ function mapDispatchToProps(dispatch) {
 
 
 export default connect(mapStateToProps,mapDispatchToProps)(BarList);
-
-       	// if(data[index].going.indexOf(user)==-1){
-       	// 	data[index].going.push(user);
-       	// }
-       	// else{
-       	// 	data[index].going.splice(data[index].going.indexOf(user),1);	
-       	// }

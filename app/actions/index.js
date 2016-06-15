@@ -8,7 +8,7 @@ import {FETCH_BARS,
         AUTH_ERROR,
         FETCH_MESSAGE} from './types';
 
-const ROOT_URL='http://localhost:3000'
+const ROOT_URL='https://nightlife-server.herokuapp.com'
 
 export function fetchBars(city) {
   return function(dispatch){

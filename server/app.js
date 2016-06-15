@@ -6,7 +6,7 @@ const passport=require('passport');
 const session=require('express-session')
 const mongoose = require('mongoose');
 
-require('./secret');
+// require('./secret');
 
 mongoose.connect(process.env.MONGO_URI);
 

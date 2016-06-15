@@ -1,5 +1,5 @@
 const yelp = require("node-yelp");
-require('../secret');
+// require('../secret');
  
 var client = yelp.createClient({
   oauth: {
