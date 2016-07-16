@@ -5,7 +5,7 @@ export default function(state=null, action) {
   	case FETCH_BARS:
     	return action.payload;
   	case RSVP:
-  		return {...state,...action.payload}  
+  		return {...state,...action.payload}; 
   }
   return state;
 }
