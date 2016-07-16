@@ -21,8 +21,7 @@ module.exports=function(city,callback){
 				     url:v.url,
 				   image:v.image_url,
 				  snippet:v.snippet_text,
-				  going:[]
-				}
+				  	going:[]}
 			})
 		callback(results)			
 	});
